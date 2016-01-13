@@ -1,0 +1,1 @@
+schtasks /create /sc daily /st 08:00:00 /ri 2 /du 13:00 /tn "%USERNAME% - open outlook every 2m" /tr c:\temp\outlook.vbs
